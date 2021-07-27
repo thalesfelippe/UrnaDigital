@@ -84,7 +84,7 @@ body {
 }
 
 .d-1-right {
-    width: 90px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -156,4 +156,21 @@ body {
     font-size: 15px;
     width: 90px;
     height: 50px;
+}
+
+.aviso-grande {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.aviso-gigante {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
